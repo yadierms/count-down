@@ -1,8 +1,5 @@
 import "./App.css";
 import Countdown from "react-countdown";
-
-const Completionist = () => <span>Time Finish!! You are good to go!</span>;
-console.log(new Date("09-07-2024"));
 function App() {
   return (
     <div>
@@ -22,9 +19,7 @@ function App() {
             </div>
             <div className="w-auto mx-1 p-2 bg-white text-red-500 rounded-lg sm:p-3 md:p-4">
               <div className="font-mono leading-none">
-                <Countdown date={new Date("09-07-2024")}>
-                  <Completionist />
-                </Countdown>
+                <Countdown date={"2024-09-06T00:00:00"}></Countdown>
               </div>
             </div>
           </div>
