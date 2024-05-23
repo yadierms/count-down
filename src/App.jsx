@@ -6,18 +6,21 @@ console.log(new Date("09-07-2024"));
 function App() {
   return (
     <div>
-      <div className="min-w-screen min-h-screen bg-red-500 flex flex-col items-center justify-center px-5 py-5">
-        <div className="item-start mb-10 font-extralight text-yellow-100">
-          ILY CYNTHIA ❤️
+      <div className="min-h-screen bg-red-500 flex flex-col items-center justify-center px-4 py-8 sm:px-6 lg:px-8">
+        <div className="text-center mb-8">
+          <div className="text-3xl font-bold text-yellow-100 md:text-4xl lg:text-5xl">
+            ILY CYNTHIA ❤️
+          </div>
         </div>
-
         <div className="text-red-100">
-          <h1 className="text-3xl text-center mb-3 font-extralight">
+          <h1 className="text-2xl text-center mb-4 font-extralight sm:text-3xl md:text-4xl">
             When will we meet again?
           </h1>
-          <div className="text-6xl text-center flex w-full items-center justify-center">
-            <div className="text-2xl mr-1 font-extralight">in</div>
-            <div className="w-600 mx-1 p-2 bg-white text-red-500 rounded-lg">
+          <div className="flex w-full items-center justify-center">
+            <div className="text-xl mr-2 font-extralight sm:text-2xl md:text-3xl">
+              in
+            </div>
+            <div className="w-auto mx-1 p-2 bg-white text-red-500 rounded-lg sm:p-3 md:p-4">
               <div className="font-mono leading-none">
                 <Countdown date={new Date("09-07-2024")}>
                   <Completionist />
