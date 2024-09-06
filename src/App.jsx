@@ -19,7 +19,7 @@ function App() {
             </div>
             <div className="w-auto mx-1 p-2 bg-white text-red-500 rounded-lg sm:p-3 md:p-4">
               <div className="font-mono leading-none">
-                <Countdown date={"2024-09-06T00:00:00"}></Countdown>
+                <Countdown date={"2024-09-08T00:00:00"}></Countdown>
               </div>
             </div>
           </div>
